@@ -1,5 +1,3 @@
-// This file is used to fix TypeScript errors when importing non-code assets
-
 declare module '*.svg' {
   const content: any;
   export default content;
